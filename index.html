@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="/Styles/reset.css" />
     <link rel="stylesheet" href="/Styles/produtos.css" />
     <link rel="stylesheet" href="/Styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Barbearia Alura</title>
   </head>
@@ -32,11 +36,10 @@
       </div>
     </header>
 
-    <img id="banner-home" class=="banner-home" src="/assets/banner.jpg"
-    alt="Imagem barbearia" />
+    <img class=="banner-home" src="/assets/banner.jpg" alt="Imagem barbearia" />
 
     <main>
-      <div class="principal-home">
+      <section class="principal-home">
         <h2 class="titulo-principal-home">Sobre a Barbearia Alura</h2>
 
         <img
@@ -66,27 +69,57 @@
           da moda. O atendimento possui padrão de excelência e agilidade,
           garantindo qualidade e satisfação dos nossos clientes.
         </p>
-      </div>
+      </section>
+
+      <section class="mapa-home">
+        <h3 class="titulo-principal-home">Nosso estabelecimento</h3>
+        <p>Nosso estabelecimento está localizado no coração da cidade</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117032.14464172046!2d-46.7271744946701!3d-23.559300665116915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1642532677404!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <section class="beneficios-home">
+        <h3 class="titulo-principal-home">Benefícios</h3>
+
+        <div class="conteudo-beneficios-home">
+          <ul class="lista-beneficios-home">
+            <li class="itens-home">Atendimento aos Clientes</li>
+            <li class="itens-home">Espaço diferenciado</li>
+            <li class="itens-home">Localização</li>
+            <li class="itens-home">Profissionais Qualificados</li>
+            <li class="itens-home">Pontualidade</li>
+            <li class="itens-home">Limpeza</li>
+          </ul>
+          <img
+            src="/assets/beneficios.jpg"
+            class="imagem-beneficios-home"
+            alt="barba sendo feita"
+          />
+        </div>
+
+        <div class="video-home">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wcVVXUV0YUY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
 
-    <section class="beneficios-home">
-      <h3 class="titulo-principal-home">Benefícios</h3>
-      <ul class="ul-home">
-        <li class="itens-home">Atendimento aos Clientes</li>
-        <li class="itens-home">Espaço diferenciado</li>
-        <li class="itens-home">Localização</li>
-        <li class="itens-home">Profissionais Qualificados</li>
-      </ul>
-
-      <img
-        src="/assets/beneficios.jpg"
-        class="imagembeneficios-home"
-        alt="barba sendo feita"
-      />
-    </section>
     <footer>
       <img src="/assets/logo-branco.png" alt="" />
-      <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+      <p class="copyright-home">&copy; Copyright Barbearia Alura - 2022</p>
     </footer>
   </body>
 </html>
