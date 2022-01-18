@@ -235,6 +235,13 @@ th {
 
 .imagem-beneficios-home {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 5px #000;
+}
+
+.imagem-beneficios-home:hover {
+  opacity: 0.85;
 }
 
 .video-home {
