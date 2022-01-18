@@ -150,3 +150,37 @@ th {
   border: 1px solid #000;
   padding: 8px 15px;
 }
+
+/* css da página inicial */
+.banner-home {
+  width: 100%;
+}
+
+.titulo-principal-home {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.principal-home p {
+  margin: 0 0 1em;
+}
+
+.principal-home strong {
+  font-weight: bold;
+}
+
+.principal-home em {
+  font-style: italic;
+}
+
+.utensilios-home {
+  width: 130px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.imagembeneficios-home {
+  width: 60%;
+}
