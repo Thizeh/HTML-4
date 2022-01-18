@@ -95,8 +95,6 @@ footer {
 }
 
 main {
-  width: 940px;
-  margin: 0 auto;
 }
 
 form {
@@ -155,7 +153,7 @@ th {
   padding: 8px 15px;
 }
 
-/* css da página inicial */
+/* ************************************************************************************************************************************ css da página inicial */
 .banner-home {
   width: 100%;
 }
@@ -165,6 +163,13 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+}
+
+.principal-home {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal-home p {
@@ -187,6 +192,12 @@ th {
 
 .mapa-home {
   padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo-home {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa-home p {
@@ -196,6 +207,7 @@ th {
 
 .beneficios-home {
   padding: 3em 0;
+  background: #888888;
 }
 
 .conteudo-beneficios-home {
@@ -215,6 +227,10 @@ th {
 
 .itens-home:first-child {
   font-weight: bold;
+}
+
+.itens-home:before {
+  content: "🟊";
 }
 
 .imagem-beneficios-home {
